@@ -12,7 +12,8 @@ namespace pryZarateFerro
 {
 
     public partial class frmFerro : Form
-
+      
+ 
     {
         public frmFerro()
         {

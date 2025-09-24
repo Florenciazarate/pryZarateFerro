@@ -41,50 +41,58 @@
             // lblFerro
             // 
             lblFerro.AutoSize = true;
-            lblFerro.Location = new Point(72, 37);
+            lblFerro.Font = new Font("Nirmala UI", 15.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            lblFerro.Location = new Point(87, 32);
             lblFerro.Name = "lblFerro";
-            lblFerro.Size = new Size(107, 15);
+            lblFerro.Size = new Size(189, 30);
             lblFerro.TabIndex = 0;
             lblFerro.Text = "Organización Ferro";
             // 
             // lblDistancia
             // 
             lblDistancia.AutoSize = true;
-            lblDistancia.Location = new Point(72, 107);
+            lblDistancia.Font = new Font("Nirmala UI", 12F);
+            lblDistancia.Location = new Point(83, 83);
             lblDistancia.Name = "lblDistancia";
-            lblDistancia.Size = new Size(55, 15);
+            lblDistancia.Size = new Size(73, 21);
             lblDistancia.TabIndex = 3;
             lblDistancia.Text = "Distancia";
             // 
             // btnCalcular
             // 
-            btnCalcular.Location = new Point(75, 257);
+            btnCalcular.BackColor = Color.DarkSeaGreen;
+            btnCalcular.FlatStyle = FlatStyle.Popup;
+            btnCalcular.Font = new Font("Nirmala UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            btnCalcular.Location = new Point(87, 178);
             btnCalcular.Name = "btnCalcular";
-            btnCalcular.Size = new Size(75, 23);
+            btnCalcular.Size = new Size(80, 30);
             btnCalcular.TabIndex = 5;
             btnCalcular.Text = "Calcular";
-            btnCalcular.UseVisualStyleBackColor = true;
+            btnCalcular.UseVisualStyleBackColor = false;
             btnCalcular.Click += btnCalcular_Click;
             // 
             // lblDias
             // 
             lblDias.AutoSize = true;
-            lblDias.Location = new Point(75, 149);
+            lblDias.Font = new Font("Nirmala UI", 12F);
+            lblDias.Location = new Point(83, 128);
             lblDias.Name = "lblDias";
-            lblDias.Size = new Size(29, 15);
+            lblDias.Size = new Size(40, 21);
             lblDias.TabIndex = 4;
             lblDias.Text = "Días";
             // 
             // numDistancia
             // 
-            numDistancia.Location = new Point(156, 99);
+            numDistancia.BackColor = Color.Ivory;
+            numDistancia.Location = new Point(156, 83);
             numDistancia.Name = "numDistancia";
             numDistancia.Size = new Size(120, 23);
             numDistancia.TabIndex = 6;
             // 
             // numDias
             // 
-            numDias.Location = new Point(156, 147);
+            numDias.BackColor = Color.Ivory;
+            numDias.Location = new Point(156, 128);
             numDias.Maximum = new decimal(new int[] { 30, 0, 0, 0 });
             numDias.Name = "numDias";
             numDias.Size = new Size(120, 23);
@@ -94,13 +102,15 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(685, 450);
+            BackColor = Color.Ivory;
+            ClientSize = new Size(366, 269);
             Controls.Add(numDias);
             Controls.Add(numDistancia);
             Controls.Add(btnCalcular);
             Controls.Add(lblDias);
             Controls.Add(lblDistancia);
             Controls.Add(lblFerro);
+            FormBorderStyle = FormBorderStyle.SizableToolWindow;
             Name = "frmFerro";
             Text = "Ferro";
             ((System.ComponentModel.ISupportInitialize)numDistancia).EndInit();
