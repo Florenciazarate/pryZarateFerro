@@ -6,6 +6,11 @@
     <Nullable>enable</Nullable>
     <UseWindowsForms>true</UseWindowsForms>
     <ImplicitUsings>enable</ImplicitUsings>
+    <ApplicationIcon>animals_wild_zoo_mammal_equine_horse_icon_266120.ico</ApplicationIcon>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="animals_wild_zoo_mammal_equine_horse_icon_266120.ico" />
+  </ItemGroup>
 
 </Project>

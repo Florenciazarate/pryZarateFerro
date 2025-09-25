@@ -41,10 +41,10 @@
             // lblFerro
             // 
             lblFerro.AutoSize = true;
-            lblFerro.Font = new Font("Nirmala UI", 15.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            lblFerro.Location = new Point(87, 32);
+            lblFerro.Font = new Font("Nirmala UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            lblFerro.Location = new Point(83, 32);
             lblFerro.Name = "lblFerro";
-            lblFerro.Size = new Size(189, 30);
+            lblFerro.Size = new Size(143, 21);
             lblFerro.TabIndex = 0;
             lblFerro.Text = "Organización Ferro";
             // 
@@ -112,6 +112,7 @@
             Controls.Add(lblFerro);
             FormBorderStyle = FormBorderStyle.SizableToolWindow;
             Name = "frmFerro";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Ferro";
             ((System.ComponentModel.ISupportInitialize)numDistancia).EndInit();
             ((System.ComponentModel.ISupportInitialize)numDias).EndInit();
